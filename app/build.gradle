@@ -1,0 +1,55 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'kundali_darsan2015sep'
+            keyPassword 'abesh2015'
+            storeFile file('G:/Code backup/androidkey/Kundli')
+            storePassword 'abesh2015'
+        }
+    }
+    compileSdkVersion 31
+    defaultConfig {
+        applicationId "suj.soft.app.kundali_darsanv2"
+        minSdkVersion 15
+        targetSdkVersion 31
+        versionName '1'
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        signingConfig signingConfigs.config
+        versionNameSuffix '3'
+        versionCode 19
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+        debug {
+            signingConfig signingConfigs.config
+            debuggable true
+        }
+    }
+    productFlavors {
+    }
+    lintOptions {
+
+        checkReleaseBuilds false
+
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation files('libs\\osmdroid-android-4.2.jar')
+    androidTestImplementation ('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:26.0.0-alpha1'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:design:26.0.0-alpha1'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    testImplementation 'junit:junit:4.12'
+}

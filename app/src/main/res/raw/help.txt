@@ -1,0 +1,43 @@
+HELP:
+Limitation of free version:
+	-No "manual time selection".
+	-Search Option for country and place disabled.
+	-No "name entry ".
+
+How to use Kundali Darsan:
+	-Entetr your name.
+	-tap on iswi or Bikram date.
+	    -selection calendar open.
+    	-select date from calendar and click set.
+	-or enter date/time manually in the same format shown.
+	-Select birth country.	
+	-Select birth place.
+	-or search country/place using search button.
+	-Tap save to save information.
+	-Tap Prepare button to prepare kundali/Janm patrika.
+	-Tap Delete icon to delete record.
+	-Tap File Icon to load save kundali.
+
+Features avialable:	
+	-Add/Edit/Delete Country and place Latitude,Longitude Using Googlemap.
+	-Basic forecast regarding info entered.
+	-Planet/Graha status at that time.
+	-Binsottari,Tribhagi and Yogini Dasa detail.
+	-Preparation of Kundali/Birth chart and other charts
+		-Nawansak kundali
+		-Bhab kundali
+		-Saptamansa kundali
+		-Dwadasansa kundali
+		-Drishyank kundali
+		-Trisyank kundali
+		-Chandra/rasi kundali
+
+Future version:
+	-Daily default kundali falit display.
+	
+Contact:
+	mrsujitjha@gmail.com
+	viber +918894088532
+	skype:mrsujitjha
+	mobile:+977 9841418355(Nepal),+91 8894088532(India)	
+	Surya panchang Karlaya (Nepal):+977 9851088755		

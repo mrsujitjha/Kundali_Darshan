@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="suj.soft.app.kundali_darsanv2">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="suj.soft.app.kundali_darsanv2.MyApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="suj.soft.app.kundali_darsanv2.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="suj.soft.app.kundali_darsanv2.setoption"></activity>
+        <activity android:name="suj.soft.app.kundali_darsanv2.calendar"> </activity>
+        <activity android:name="suj.soft.app.kundali_darsanv2.matchmaking"> </activity>
+        <activity android:name="suj.soft.app.kundali_darsanv2.option"> </activity>
+        <activity android:name="suj.soft.app.kundali_darsanv2.falit"> </activity>
+        <activity android:name="suj.soft.app.kundali_darsanv2.todayfalit"> </activity>
+        <activity android:name="suj.soft.app.kundali_darsanv2.kundali"> </activity>
+        <activity android:name="suj.soft.app.kundali_darsanv2.Binso"> </activity>
+        <activity android:name="suj.soft.app.kundali_darsanv2.general"> </activity>
+        <activity android:name="suj.soft.app.kundali_darsanv2.help"> </activity>
+        <activity android:name="suj.soft.app.kundali_darsanv2.countryplace"> </activity>
+        <activity android:name="suj.soft.app.kundali_darsanv2.patro"> </activity>
+
+    </application>
+
+</manifest>

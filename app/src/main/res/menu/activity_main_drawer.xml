@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_matchmaking"
+            android:icon="@drawable/ic_launchersmall"
+            android:title="Match Making" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/calendar"
+            android:title="Calendar" />
+        <item
+            android:id="@+id/nav_patro"
+            android:icon="@drawable/calendar"
+            android:title="Panchang" />
+        <item
+            android:id="@+id/nav_option"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Set Option" />
+        <item
+            android:id="@+id/nav_falit"
+            android:icon="@drawable/calendar"
+            android:title="Today Falit" />
+        <item
+            android:id="@+id/nav_conplace"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Add Country place" />
+
+    </group>
+    <item android:title="Help and Register">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Help" />
+            <item
+                android:id="@+id/nav_reg"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Register" />
+        </menu>
+    </item>
+
+
+</menu>
